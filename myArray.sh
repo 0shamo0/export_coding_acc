@@ -1,11 +1,13 @@
 #!/bin/bash
-NAMES=( John Eric Jessica )
-# write your code here
-NUMBERS=( 1 2 3 )
+NOMS=( Harry Pierre Antonio )
+NOMBRES=( 1 2 3 )
 STRINGS=( "hello" "world" )
-NumberOfNames=${#NAMES[@]}
-second_name=${NAMES[1]}
-echo ${NUMBERS[@]}
+NombreNoms=${#NOMS[@]}
+second_nom=${NOMS[1]}
+echo ${NOMBRES[@]}
 echo ${STRINGS[@]}
-echo "The number of names listed in the NAMES array: $NumberOfNames"
-echo "The second name on the NAMES list is:" ${second_name}
+echo "Le nombre du nom indiqué est: $NombreNoms"
+echo "Le second nom est:" ${second_nom}
+
+
+
